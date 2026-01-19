@@ -35,17 +35,6 @@ function App({ onNavigate }: AppProps) {
   return (
     <>
       <VersionBadge>React v{version}</VersionBadge>
-      {/* <button
-        onClick={() => setCount((prevCount) => prevCount + 1)}
-      >
-        Increment react 17
-      </button>
-      <button
-        onClick={() => setCount((prevCount) => prevCount - 1)}
-      >
-        Decrement react 17
-      </button>
-      <span>Count react17: {count}</span> */}
       <Hero className="hero">
         <HeroImage alt="T-shirt collection" src="https://picsum.photos/seed/tshirts/1600/500" />
         <HeroOverlay>
